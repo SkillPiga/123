@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Telegram Site Monitor</string>
-    <string name="accessibility_service_label">Telegram Site Monitor</string>
-    <string name="accessibility_service_description">
-        Мониторинг посещённых сайтов в браузере и отправка уведомлений через Telegram.
-    </string>
-</resources>
