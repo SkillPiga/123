@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Конфигурация Accessibility Service.
+    Отслеживает все события окна и изменения содержимого в браузерах.
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagReportViewIds|flagRetrieveInteractiveWindows"
+    android:canRetrieveWindowContent="true"
+    android:description="@string/accessibility_service_description"
+    android:notificationTimeout="100"
+    android:packageNames="
+        com.android.chrome,
+        com.chrome.beta,
+        com.chrome.dev,
+        org.mozilla.firefox,
+        com.opera.browser,
+        com.microsoft.emmx,
+        com.brave.browser,
+        com.sec.android.app.sbrowser,
+        com.UCMobile.intl" />
